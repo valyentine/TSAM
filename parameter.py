@@ -21,7 +21,7 @@ def parse_args():
     parser.add_argument('--epochs', type=int, default=300, help='Maximum number of epochs')
     parser.add_argument('--lr', type=float, default=0.003, help='Learning rate of AdamW')
     parser.add_argument('--weight_decay', type=float, default=1e-5, help='Weight decay of AdamW')
-    parser.add_argument('--num_layers', type=int, default=1, help='Number of Graphormer layers')
+    parser.add_argument('--num_layers', type=int, default=1, help='Number of Transformer layers')
     parser.add_argument('--num_heads', type=int, default=1, help='Number of attention heads')
     parser.add_argument('--minimum_sample', type=int, default=3, help='Maximum number of node attention')
     parser.add_argument('--maximum_sample', type=int, default=10, help='minimum number of node attention')
