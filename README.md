@@ -14,7 +14,7 @@ pip install -r requirement.txt
 ```
 ## Usage
 ### Dismantle the networks in the paper
-1.unzip the `data.zip` and put them in the folder `./data`.
+1. unzip the `data.zip` and put them in the folder `./data`.
 
 The file directory of networks is as follows:
 ```
@@ -29,4 +29,4 @@ The file directory of networks is as follows:
 |   |   ├── ...
 │   ├── ...
 ```
-
+2. 
