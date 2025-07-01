@@ -34,3 +34,11 @@ The file directory of networks is as follows:
 python train.py --network AirTraffic
 ```
 Refer to `parameter.py` for additional configurable parameters.
+### Dismantling your own networks
+1. Use `complete.py` to preprocess `your_network.txt`. Configure the `network` parameter in the script to match your network name and execute it.
+```
+python complete.py
+```
+This will generate `your_network_new.txt`. Then place `your_network_new.txt` in the appropriate subdirectory under `./data`, following the existing directory structure.
+2. 
+
