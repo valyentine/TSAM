@@ -13,4 +13,4 @@ pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https
 pip install -r requirement.txt
 ```
 ## Usage
-1.unzip the 
+1.unzip the `data.zip`
