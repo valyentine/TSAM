@@ -40,6 +40,7 @@ Refer to `parameter.py` for additional configurable parameters.
 python complete.py
 ```
 This will generate `your_network_new.txt`. Then place `your_network_new.txt` in the appropriate subdirectory under `./data`, following the existing directory structure.
+
 2. Add your network to the `graph_type` dictionary in train.py and then you can dismantle your own network:
 ```
 python train.py --network your_network
