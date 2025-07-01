@@ -13,7 +13,7 @@ pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https
 pip install -r requirement.txt
 ```
 ## Usage
-### Dismantle the networks in the paper
+### Dismantling networks in the paper
 1. unzip the `data.zip` and put them in the folder `./data`.
 
 The file directory of networks is as follows:
@@ -29,4 +29,8 @@ The file directory of networks is as follows:
 |   |   ├── ...
 │   ├── ...
 ```
-2. 
+2. Specify the target network using the `--network` argument. For example:  
+   ```bash
+   python train.py --network AirTraffic
+   ```
+Refer to `parameter.py` for additional configurable parameters.
