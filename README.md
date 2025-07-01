@@ -16,7 +16,7 @@ pip install -r requirement.txt
 ### Dismantling networks in the paper
 1. unzip the `data.zip` and put them in the folder `./data`.
 
-The file directory of networks is as follows:
+  The file directory of networks is as follows:
 ```
 ├── realworld
 │   ├── AirTraffic
@@ -33,4 +33,4 @@ The file directory of networks is as follows:
 ```
 python train.py --network AirTraffic
 ```
-Refer to `parameter.py` for additional configurable parameters.
+  Refer to `parameter.py` for additional configurable parameters.
