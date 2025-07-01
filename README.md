@@ -13,4 +13,20 @@ pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https
 pip install -r requirement.txt
 ```
 ## Usage
-1.unzip the `data.zip`
+# Dismantle the networks in the paper
+1.unzip the `data.zip` and put them in the folder `./data`.
+
+The file directory of networks is as follows:
+```
+├── realworld
+│   ├── AirTraffic
+|   |   ├── AirTraffic.txt
+│   ├── ...
+├── synthetic
+│   ├── BA_1000_4
+|   |   ├── 0.edge
+|   |   ├── 1.edge
+|   |   ├── ...
+│   ├── ...
+```
+
