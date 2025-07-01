@@ -30,7 +30,7 @@ The file directory of networks is as follows:
 │   ├── ...
 ```
 2. Specify the target network using the `--network` argument. For example:  
-   ```bash
-   python train.py --network AirTraffic
-   ```
+```
+python train.py --network AirTraffic
+```
 Refer to `parameter.py` for additional configurable parameters.
